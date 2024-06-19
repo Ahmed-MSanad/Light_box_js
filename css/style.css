@@ -1,5 +1,6 @@
 main{
     position: relative;
+    height: 100vh;
 }
 .overlay{
     position: absolute;
@@ -25,4 +26,10 @@ i{
     text-align: center;
     background-color: #fff;
     bottom: 10%;
+}
+
+@media (max-width:767px){
+    main{
+        height: auto;
+    }
 }
